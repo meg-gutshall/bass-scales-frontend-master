@@ -15,7 +15,8 @@
     "http-server": "^0.12.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "babel": "babel --presets env javascript/app.js -o build/app.bundle.js",
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
