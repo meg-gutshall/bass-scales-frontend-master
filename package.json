@@ -2,7 +2,7 @@
   "name": "bass-scales-frontend-master",
   "version": "1.0.0",
   "description": "Test app",
-  "main": "index.js",
+  "main": "javascript/app.js",
   "dependencies": {
     "babel-loader": "^8.1.0",
     "webpack": "^4.43.0"
@@ -22,7 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/meg-gutshall/bass-scales-frontend-master.git"
   },
-  "author": "",
+  "author": "Meg Gutshall",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/meg-gutshall/bass-scales-frontend-master/issues"
