@@ -2,7 +2,7 @@
   "name": "bass-scales-frontend-master",
   "version": "1.0.0",
   "description": "Test app",
-  "main": "javascript/app.js",
+  "main": "src/javascript/app.js",
   "dependencies": {
     "babel-loader": "^8.1.0",
     "webpack": "^4.43.0"
@@ -15,7 +15,7 @@
     "http-server": "^0.12.3"
   },
   "scripts": {
-    "babel": "babel --presets env javascript/app.js -o build/app.bundle.js",
+    "babel": "babel --presets env src/javascript/app.js -o build/app.bundle.js",
     "start": "http-server"
   },
   "repository": {
